@@ -17,6 +17,7 @@ const store = new Vuex.Store({
   mutations: {
     addDeliveries (state, deliveries) {
       state.deliveries = deliveries
+      console.log(state.deliveries)
     }
   }
 })
